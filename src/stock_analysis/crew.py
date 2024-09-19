@@ -3,12 +3,8 @@ from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from langchain_openai import ChatOpenAI
 from crewai_tools import SerperDevTool, ScrapeWebsiteTool, WebsiteSearchTool
-import agentops
+
 import os
-
-
-agentops.init(os.environ.get("AGENTOPS_API_KEY"))
-
 
 main_llm = ChatOpenAI(model="gpt-4o", temperature=0.1, verbose=True)
 
@@ -60,5 +56,6 @@ class StockAnalysisCrew():
 			agents=self.agents, 
 			tasks=self.tasks, 
 			process=Process.sequential,
+			memory=False,
 			verbose=True,
 		)
