@@ -1,0 +1,17 @@
+2024-09-19 17:33:33,727 - INFO - Session Replay: https://app.agentops.ai/drilldown?session_id=be1561e1-19f0-4569-8a72-033723cc69ad
+2024-09-19 17:34:22,312 - INFO - This run's cost $0.017250
+2024-09-19 17:34:22,312 - INFO - Session Replay: https://app.agentops.ai/drilldown?session_id=be1561e1-19f0-4569-8a72-033723cc69ad
+2024-09-19 17:35:03,442 - WARNING - Error: 'NoneType' object has no attribute 'create_agent'
+2024-09-19 17:35:03,443 - WARNING - Failed to track an agent with the @track_agent decorator.
+2024-09-19 17:35:03,447 - WARNING - Error: 'NoneType' object has no attribute 'create_agent'
+2024-09-19 17:35:03,448 - WARNING - Failed to track an agent with the @track_agent decorator.
+2024-09-19 17:35:05,270 - ERROR - Could not record event. Start a session by calling agentops.start_session().
+2024-09-19 17:35:11,886 - ERROR - Could not record event. Start a session by calling agentops.start_session().
+2024-09-19 17:35:11,893 - WARNING - Failed to track an agent None with the @track_agent decorator.
+2024-09-19 17:35:11,893 - WARNING - Failed to track an agent None with the @track_agent decorator.
+2024-09-19 17:35:11,893 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
+2024-09-19 17:35:16,182 - ERROR - Could not record event. Start a session by calling agentops.start_session().
+2024-09-19 17:35:44,573 - ERROR - Could not record event. Start a session by calling agentops.start_session().
+2024-09-19 17:35:44,601 - WARNING - Failed to track an agent None with the @track_agent decorator.
+2024-09-19 17:35:44,601 - WARNING - Failed to track an agent None with the @track_agent decorator.
+2024-09-19 17:35:44,602 - WARNING - Could not end session - no sessions detected
