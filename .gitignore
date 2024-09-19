@@ -1,0 +1,7 @@
+.env
+__pycache__/
+
+# streamlit
+.streamlit/
+
+"src/stock_analysis/.streamlit/secrets.toml" 
